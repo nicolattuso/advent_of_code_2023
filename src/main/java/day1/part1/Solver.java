@@ -1,11 +1,19 @@
 package day1.part1;
 
+import day1.CalibrationValue;
+
 public class Solver {
   public static CalibrationValue parseLine(String line) {
     var firstDigit = line.chars().filter(Character::isDigit).findFirst().getAsInt();
-    var lastDigit = new StringBuilder(line).reverse().toString().chars().filter(Character::isDigit).findFirst().getAsInt();
-    String calibrationValueString = String.valueOf((char) firstDigit) +
-        (char) lastDigit;
+    var lastDigit =
+        new StringBuilder(line)
+            .reverse()
+            .toString()
+            .chars()
+            .filter(Character::isDigit)
+            .findFirst()
+            .getAsInt();
+    String calibrationValueString = String.valueOf((char) firstDigit) + (char) lastDigit;
     return new CalibrationValue(Integer.parseInt(calibrationValueString));
   }
 
