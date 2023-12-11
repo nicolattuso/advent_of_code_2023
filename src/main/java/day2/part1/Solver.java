@@ -1,7 +1,7 @@
 package day2.part1;
 
-import day2.Game;
-import day2.InputVisitor;
+import day2.model.Game;
+import day2.visitors.InputVisitor;
 import day2.gen.Day2Lexer;
 import day2.gen.Day2Parser;
 import day2.gen.Day2Parser.InputContext;

@@ -1,7 +1,8 @@
-package day2;
+package day2.visitors;
 
 import day2.gen.Day2Parser.InputContext;
 import day2.gen.Day2ParserBaseVisitor;
+import day2.model.Input;
 
 public class InputVisitor extends Day2ParserBaseVisitor<Input> {
   @Override

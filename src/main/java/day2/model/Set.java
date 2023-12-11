@@ -1,4 +1,4 @@
-package day2;
+package day2.model;
 
 import lombok.Builder;
 import lombok.Getter;

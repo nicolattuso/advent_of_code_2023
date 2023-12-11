@@ -1,8 +1,8 @@
 package day2.part2;
 
-import day2.Game;
-import day2.Set;
-import day2.InputVisitor;
+import day2.model.Game;
+import day2.model.Set;
+import day2.visitors.InputVisitor;
 import day2.gen.Day2Lexer;
 import day2.gen.Day2Parser;
 import org.antlr.v4.runtime.CharStreams;

@@ -1,7 +1,8 @@
-package day2;
+package day2.visitors;
 
 import day2.gen.Day2Parser;
 import day2.gen.Day2ParserBaseVisitor;
+import day2.model.Set;
 
 public class SetVisitor extends Day2ParserBaseVisitor<Set> {
   @Override
